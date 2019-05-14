@@ -5,17 +5,17 @@ Assignment:   Final Project
 Dataset:      Pricing from BTS: 90,021 rows, 18 columns; delay data from FAA: 77,240 rows, 12 columns
 Task:         Prediction from time series
 Language:     Python
-Packages:     Pandas, NLTK, sklearn
-Buzz:         Machine learning, natural language processing, naive Bayes, sentiment lexicon, feature sets
+Packages:     Pandas, NumPy, SciPy, statsmodels, matplotlib, Seaborn, Prophet
+Buzz:         Time series, Prophet model
 </pre>
 \
 Project Description:
 
-The task for this project was to take a Kaggle dataset containing 156,060 phrases, and to train and test a sentiment classification process, with the goal of attaining the best F1 score, a statistic that represents the harmonic average of the precision and recall of a classifier.  My approach was to build a baseline classifier using a "bag of words" feature, and then try various other classifiers and combinations of classifiers to try to find the best F1 score possible.\
+In this project, my colleagues and I generated a hypothetical scenario: being located in Albuquerque, Austin, Dallas, and Boston, we needed a central place to meet once per year.  We settled on Denver, and the task we set ourselves was to find the optimal time of year to meet, minimizing both cost and delays.
 \
 Instructions:\
-Copy the folder 'kagglemoviereviews' to a place of your choosing.  Open the Jupyter Notebook 'James_Harris_FinalProject.ipynb'.  Set the variable 'dirPath' to the location in which you saved the movie reviews folder.\
+Copy all files to the same directory, and open the Jupyter Notebook in your Python editor of choice.
 \
-Also, please read 'James_Harris_FinalProject_v4.docx' for my report.\
+Also, please read 'Harris_CourseProject.pdf' for my report.\
 \
 Thanks for taking the time to view my project.
